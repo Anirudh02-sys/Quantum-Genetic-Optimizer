@@ -20,7 +20,7 @@ This implementation introduces **Quantum-Inspired Mechanics**:
 
 ## 🏗️ Algorithmic Workflow
 
-\```mermaid
+```mermaid
 graph TD
     A[Initialize Q-bit Population] --> B[Measure Current Population States]
     B --> C[Evaluate Fitness Functions]
@@ -29,7 +29,7 @@ graph TD
     E -- Yes --> F[Output Global Optimum]
     E -- No --> G[Apply Quantum Rotation Gates]
     G --> B
-\```
+```
 
 ---
 
